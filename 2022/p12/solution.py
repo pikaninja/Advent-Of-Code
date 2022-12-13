@@ -68,7 +68,7 @@ def p2(f):
 
     mini = 9999999
     for idx, start in enumerate(possible):
-        print(idx, "/",len(possible))
+        #print(idx, "/",len(possible))
         q = []
         vis = [[False for i in range(m)] for j in range(n)]
         vis_2 = []
